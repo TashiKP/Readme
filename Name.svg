@@ -64,11 +64,7 @@
           animation: snowflakes-fall 10s linear infinite, snowflakes-shake 3s ease-in-out infinite;
         }
 
-        .snowflake:nth-of-type(1) {
-          left: 10%;
-          animation-delay: 0s, 0s;
-          font-size: 1.5em;
-        }
+      
 
         .snowflake:nth-of-type(2) {
           left: 20%;
@@ -119,7 +115,6 @@
         }
       </style>
       <h1>Hi, Welcome to My Profile!</h1>
-      <div xmlns="http://www.w3.org/1999/xhtml" class="snowflake">❄</div>
       <div xmlns="http://www.w3.org/1999/xhtml" class="snowflake">❄</div>
       <div xmlns="http://www.w3.org/1999/xhtml" class="snowflake">❄</div>
       <div xmlns="http://www.w3.org/1999/xhtml" class="snowflake">❄</div>
