@@ -30,15 +30,12 @@
 
         @keyframes snowflakes-fall {
           0% {
-            transform: translateY(-10%);
-            opacity: 0.8;
-          }
-          50% {
+            transform: translateY(-100px);
             opacity: 1;
           }
           100% {
             transform: translateY(100vh);
-            opacity: 0.5;
+            opacity: 0;
           }
         }
 
@@ -47,13 +44,13 @@
             transform: translateX(0px);
           }
           50% {
-            transform: translateX(20px);
+            transform: translateX(15px);
           }
         }
 
         .snowflake {
           position: absolute;
-          top: -10%;
+          top: 0;
           z-index: 9999;
           user-select: none;
           color: #fff;
