@@ -23,6 +23,29 @@
           }
         }
 
+        @keyframes fall {
+          0% {
+            transform: translateY(-10%);
+            opacity: 1;
+          }
+          90% {
+            opacity: 1;
+          }
+          100% {
+            transform: translateY(110%);
+            opacity: 0;
+          }
+        }
+
+        @keyframes rotate {
+          0%, 100% {
+            transform: rotate(0deg);
+          }
+          50% {
+            transform: rotate(360deg);
+          }
+        }
+
         h1 {
           font-family: 'Inter', Arial, sans-serif;
           margin: 0;
@@ -39,55 +62,36 @@
         }
 
         .snowflake {
-          color: #ffffff;
-          font-size: 1.5em;
-          font-family: 'Arial', sans-serif;
-          text-shadow: 0 0 5px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.8);
           position: absolute;
-          top: -10%;
-          z-index: 9999;
-          user-select: none;
+          top: -5%;
+          font-size: 1.5em;
+          color: #ffffff;
+          text-shadow: 0 0 5px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.8);
           animation: fall linear infinite, rotate 6s ease-in-out infinite;
+          user-select: none;
+          z-index: 9999;
         }
 
-        @keyframes fall {
-          0% {
-            transform: translateY(-100vh);
-          }
-          100% {
-            transform: translateY(100vh);
-          }
-        }
-
-        @keyframes rotate {
-          0%, 100% {
-            transform: rotate(0deg);
-          }
-          50% {
-            transform: rotate(360deg);
-          }
-        }
-
-        .snowflake:nth-of-type(odd) {
-          animation-duration: 8s;
-          animation-delay: calc(var(--i) * 0.5s);
-        }
-
-        .snowflake:nth-of-type(even) {
-          animation-duration: 6s;
-          animation-delay: calc(var(--i) * 0.7s);
-        }
+        .snowflake:nth-child(1) { left: 10%; animation-duration: 8s; animation-delay: 0s; }
+        .snowflake:nth-child(2) { left: 20%; animation-duration: 6s; animation-delay: 1s; }
+        .snowflake:nth-child(3) { left: 30%; animation-duration: 9s; animation-delay: 2s; }
+        .snowflake:nth-child(4) { left: 40%; animation-duration: 7s; animation-delay: 3s; }
+        .snowflake:nth-child(5) { left: 50%; animation-duration: 8s; animation-delay: 4s; }
+        .snowflake:nth-child(6) { left: 60%; animation-duration: 10s; animation-delay: 5s; }
+        .snowflake:nth-child(7) { left: 70%; animation-duration: 6s; animation-delay: 6s; }
+        .snowflake:nth-child(8) { left: 80%; animation-duration: 9s; animation-delay: 7s; }
+        .snowflake:nth-child(9) { left: 90%; animation-duration: 8s; animation-delay: 8s; }
       </style>
       <h1>✨ Hi, Welcome to My Profile! ✨</h1>
-      <div xmlns="http://www.w3.org/1999/xhtml" class="snowflake" style="--i: 1;">❄</div>
-      <div xmlns="http://www.w3.org/1999/xhtml" class="snowflake" style="--i: 2;">❄</div>
-      <div xmlns="http://www.w3.org/1999/xhtml" class="snowflake" style="--i: 3;">❄</div>
-      <div xmlns="http://www.w3.org/1999/xhtml" class="snowflake" style="--i: 4;">❄</div>
-      <div xmlns="http://www.w3.org/1999/xhtml" class="snowflake" style="--i: 5;">❄</div>
-      <div xmlns="http://www.w3.org/1999/xhtml" class="snowflake" style="--i: 6;">❄</div>
-      <div xmlns="http://www.w3.org/1999/xhtml" class="snowflake" style="--i: 7;">❄</div>
-      <div xmlns="http://www.w3.org/1999/xhtml" class="snowflake" style="--i: 8;">❄</div>
-      <div xmlns="http://www.w3.org/1999/xhtml" class="snowflake" style="--i: 9;">❄</div>
+      <div class="snowflake">❄</div>
+      <div class="snowflake">❄</div>
+      <div class="snowflake">❄</div>
+      <div class="snowflake">❄</div>
+      <div class="snowflake">❄</div>
+      <div class="snowflake">❄</div>
+      <div class="snowflake">❄</div>
+      <div class="snowflake">❄</div>
+      <div class="snowflake">❄</div>
     </div>
   </foreignObject>
 </svg>
