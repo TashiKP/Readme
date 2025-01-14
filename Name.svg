@@ -65,7 +65,7 @@
         }
       
         .snowflake:nth-of-type(2) {
-          left: 20%;
+          left: 25%;
           animation-delay: 2s, 1s;
           font-size: 2rem;
         }
