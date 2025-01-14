@@ -1,4 +1,4 @@
-<svg fill="none" viewBox="0 0 800 100" width="800" height="100" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 800 100" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: center; justify-content: center; height: 100%;">
       <style>
@@ -16,7 +16,7 @@
 
         .snowflake {
           color: #fff;
-          font-size: 1.5em;
+          font-size: 1.5rem; /* Scalable font size */
           font-family: 'Arial', sans-serif;
           text-shadow: 0 0 5px rgba(0,0,0,0.7), 0 0 10px rgba(0,0,0,0.7);
         }
@@ -24,7 +24,7 @@
         h1 {
           font-family: 'Inter', Arial, sans-serif;
           margin: 0;
-          font-size: 3em; 
+          font-size: 3rem; /* Scalable font size */
           font-weight: 800;
           letter-spacing: -0.05em;
           text-align: center;
@@ -67,49 +67,49 @@
         .snowflake:nth-of-type(2) {
           left: 20%;
           animation-delay: 2s, 1s;
-          font-size: 2em;
+          font-size: 2rem;
         }
 
         .snowflake:nth-of-type(3) {
           left: 30%;
           animation-delay: 1s, 2s;
-          font-size: 1.8em;
+          font-size: 1.8rem;
         }
 
         .snowflake:nth-of-type(4) {
           left: 40%;
           animation-delay: 3s, 1.5s;
-          font-size: 1.6em;
+          font-size: 1.6rem;
         }
 
         .snowflake:nth-of-type(5) {
           left: 50%;
           animation-delay: 5s, 3s;
-          font-size: 1.7em;
+          font-size: 1.7rem;
         }
 
         .snowflake:nth-of-type(6) {
           left: 60%;
           animation-delay: 4s, 2s;
-          font-size: 2em;
+          font-size: 2rem;
         }
 
         .snowflake:nth-of-type(7) {
           left: 70%;
           animation-delay: 6s, 2.5s;
-          font-size: 1.4em;
+          font-size: 1.4rem;
         }
 
         .snowflake:nth-of-type(8) {
           left: 80%;
           animation-delay: 7s, 3s;
-          font-size: 1.9em;
+          font-size: 1.9rem;
         }
 
         .snowflake:nth-of-type(9) {
           left: 90%;
           animation-delay: 8s, 4s;
-          font-size: 1.5em;
+          font-size: 1.5rem;
         }
       </style>
       <h1>Hi, Welcome to My Profile!</h1>
