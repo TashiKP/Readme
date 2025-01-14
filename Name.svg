@@ -49,7 +49,7 @@
             transform: translateX(0px);
           }
           50% {
-            transform: translateX(50px);
+            transform: translateX(30px);
           }
           100% {
             transform: translateX(0px);
