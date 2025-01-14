@@ -24,7 +24,7 @@
         h1 {
           font-family: 'Inter', Arial, sans-serif;
           margin: 0;
-          font-size: 3rem; /* Scalable font size */
+          font-size: 3rem; 
           font-weight: 800;
           letter-spacing: -0.05em;
           text-align: center;
@@ -63,11 +63,7 @@
           user-select: none;
           animation: snowflakes-fall 10s linear infinite, snowflakes-shake 3s ease-in-out infinite;
         }
-          .snowflake:nth-of-type(1) {
-          left: 10%;
-          animation-delay: 0s, 0s;
-          font-size: 1rem;
-        }
+      
         .snowflake:nth-of-type(2) {
           left: 20%;
           animation-delay: 2s, 1s;
