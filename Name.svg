@@ -63,7 +63,11 @@
           user-select: none;
           animation: snowflakes-fall 10s linear infinite, snowflakes-shake 3s ease-in-out infinite;
         }
-
+            .snowflake:nth-of-type(1) {
+          left: 10%;
+          animation-delay: 2s, 1s;
+          font-size: 2rem;
+        }
         .snowflake:nth-of-type(2) {
           left: 20%;
           animation-delay: 2s, 1s;
